@@ -1,0 +1,131 @@
+SnapKitty Commercial License v1.0
+
+Copyright (C) 2026 SnapKitty Collective. All rights reserved.
+
+This is a proprietary commercial license. It is NOT an open-source
+license. No rights are granted except as expressly stated below.
+
+1. DEFINITIONS
+
+  1.1 "Licensor" means the SnapKitty Collective.
+  1.2 "Software" means the reproduction kit, scripts, specifications,
+      model card templates, packaging files, and documentation provided
+      under this license.
+  1.3 "Weights" means any model weights, checkpoints, adapters (including
+      LoRA/QLoRA adapters), merged models, or quantized artifacts
+      (including GGUF files) produced with or derived from the Software
+      or from SnapKitty training data, curation methods, or harness
+      configurations.
+  1.4 "Derivative" means any work based on or derived from the Software
+      or the Weights, including fine-tunes, merges, distillations,
+      quantizations, conversions to other formats, or embeddings of the
+      Weights into larger systems.
+  1.5 "Commercial Use" means any use in connection with a business,
+      product, or service, whether or not for direct monetary gain,
+      including deployment in production systems, offering model
+      inference as a service, or incorporation into a commercial product.
+
+2. OWNERSHIP
+
+  All right, title, and interest in and to the Software and the Weights,
+  including all intellectual property rights therein, are and remain the
+  exclusive property of the Licensor. No ownership interest is
+  transferred by this license.
+
+3. LIMITED GRANT
+
+  Subject to the terms of this license, the Licensor grants you a
+  limited, non-exclusive, non-transferable, revocable license to use the
+  Software solely as described in Section 4. All other rights are
+  expressly reserved.
+
+4. EVALUATION ALLOWANCE
+
+  4.1 You may use the Software and any Weights you lawfully produce with
+      it for internal, non-production evaluation purposes for a period
+      of fourteen (14) calendar days from first use (the "Evaluation
+      Period").
+  4.2 Any evaluation use MUST carry prominent attribution to
+      "SnapKitty Collective" (see Section 6). The Evaluation Period does
+      not permit production deployment, public demonstration, or
+      Commercial Use.
+  4.3 Continued use beyond the Evaluation Period, or any Commercial Use
+      at any time, requires a signed commercial license agreement with
+      the Licensor. Contact the Licensor to obtain one.
+
+5. RESTRICTIONS
+
+  Without a signed commercial license agreement, you MUST NOT:
+
+  (a) copy, reproduce, redistribute, republish, or make available the
+      Software or the Weights, in whole or in part, by any means;
+  (b) create, train, or distribute Derivatives of the Software or the
+      Weights;
+  (c) remove, alter, or obscure any license, copyright, attribution, or
+      provenance notice contained in the Software, the Weights, or their
+      metadata;
+  (d) sublicense, assign, or transfer any rights granted under this
+      license;
+  (e) use the Software or the Weights to train a competing model for
+      redistribution;
+  (f) circumvent any technical measure the Licensor applies to enforce
+      this license.
+
+6. ATTRIBUTION
+
+  6.1 Any authorized use, display, deployment, or description of the
+      Software or the Weights MUST include prominent attribution to
+      "SnapKitty Collective" in a location a reasonable user would
+      encounter (for example: model card, README, about page, or API
+      documentation).
+  6.2 Attribution MUST NOT be removed or hidden, and MUST NOT imply
+      endorsement by the Licensor beyond the fact of authorship.
+  6.3 Removal or obscuring of attribution is a material breach of this
+      license.
+
+7. BASE MODEL TERMS
+
+  The Weights are a derivative of nvidia/Nemotron-Mini-4B-Instruct and
+  remain subject to the NVIDIA Community Model License. This license
+  covers ONLY SnapKitty's added intellectual property (fine-tuning,
+  data curation, harness configuration, specifications, and scripts).
+  It does not and cannot strip, waive, or override NVIDIA's terms or
+  attribution requirements on the base weights. See LICENSE-NVIDIA.
+
+8. TERMINATION
+
+  8.1 This license terminates automatically, without notice, upon any
+      breach of its terms.
+  8.2 Upon termination you MUST immediately cease all use of the
+      Software and the Weights and destroy all copies in your possession
+      or control.
+  8.3 Sections 2, 5, 6, 8, 9, and 10 survive termination.
+
+9. NO WARRANTY
+
+  THE SOFTWARE AND THE WEIGHTS ARE PROVIDED "AS IS", WITHOUT WARRANTY
+  OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+  NONINFRINGEMENT. THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE OR
+  WEIGHTS ARE ERROR-FREE, SECURE, OR SUITABLE FOR ANY PURPOSE.
+
+10. LIMITATION OF LIABILITY
+
+  TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE LICENSOR SHALL NOT BE
+  LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+  PUNITIVE DAMAGES ARISING FROM OR RELATED TO THIS LICENSE OR THE USE
+  OF THE SOFTWARE OR THE WEIGHTS, EVEN IF ADVISED OF THE POSSIBILITY OF
+  SUCH DAMAGES. THE LICENSOR'S TOTAL LIABILITY SHALL NOT EXCEED THE
+  AMOUNTS, IF ANY, PAID BY YOU TO THE LICENSOR UNDER A COMMERCIAL
+  LICENSE AGREEMENT.
+
+11. GENERAL
+
+  11.1 This license is the entire agreement between you and the
+       Licensor regarding the Software and the Weights.
+  11.2 If any provision is held unenforceable, the remaining provisions
+       remain in full effect.
+  11.3 Failure to enforce any provision does not waive the Licensor's
+       right to enforce it later.
+
+END OF SNAPKITTY COMMERCIAL LICENSE v1.0

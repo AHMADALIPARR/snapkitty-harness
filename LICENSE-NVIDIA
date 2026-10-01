@@ -1,0 +1,49 @@
+LICENSE-NVIDIA — Base Model License Compatibility Notice
+
+SnapKitty Commercial License v1.0 covers ONLY SnapKitty's added
+intellectual property: the fine-tuning procedure, data curation,
+harness configuration, specifications, scripts, and documentation in
+this kit.
+
+It does NOT cover the base model weights, and it does not and cannot
+strip, waive, or override the terms that govern those weights.
+
+BASE MODEL PROVENANCE (verified from the original GGUF metadata):
+
+  Base model:       nvidia/Nemotron-Mini-4B-Instruct
+  (a.k.a. "Minitron 4B Instruct", itself fine-tuned from
+   nvidia/Minitron-4B-Base)
+  Base license:     NVIDIA Community Model License
+  License reference: https://huggingface.co/nvidia/Nemotron-Mini-4B-Instruct/blob/main/nvidia-community-model-license-aug2024.pdf
+
+REQUIREMENTS FOR ANY ARTIFACT PRODUCED WITH THIS KIT:
+
+  1. The NVIDIA Community Model License (or a verbatim copy of it)
+     MUST travel with any fine-tuned weights, merged models, or
+     quantized artifacts (including GGUF files) you produce.
+  2. NVIDIA's attribution requirements MUST be preserved. Do not
+     remove NVIDIA's copyright or license notices from model metadata
+     (e.g. the `general.license`, `general.license.name`, and
+     `general.license.link` fields in the GGUF header).
+  3. SnapKitty's commercial-license terms apply IN ADDITION to
+     NVIDIA's terms, not instead of them. Where the two conflict on
+     the base weights, NVIDIA's terms govern the base weights and
+     SnapKitty's terms govern SnapKitty's added IP.
+  4. You MUST NOT represent the resulting artifact as free of
+     NVIDIA's license terms, nor as solely SnapKitty's work. The
+     model card template in packaging/model-card.md includes a
+     provenance section for exactly this purpose — fill it in.
+
+IN PLAIN LANGUAGE:
+
+  Think of the final GGUF as a layered artifact. NVIDIA owns the
+  foundation (the base weights and their license). SnapKitty owns the
+  renovation (the fine-tune, the curation, the harness config, and
+  this kit's contents). You need permission from BOTH layers to
+  redistribute or commercially use the result. This kit grants you
+  nothing over NVIDIA's layer — go read NVIDIA's license yourself
+  before you ship anything.
+
+The `verify.py` script in scripts/ asserts that the base-model
+provenance fields are present in any GGUF produced by this pipeline,
+so the NVIDIA attribution cannot be silently dropped.
